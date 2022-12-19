@@ -22,7 +22,7 @@ const Header = () => {
             <p className='flex items-center justify-center'><GoLocation className='text-white'/>Raleigh, NC</p>
         </div>
         <div className='icons flex items-center justify-center my-5 gap-4 '>
-            <a className='p-2 border-2 rounded-full'  href=""><MdEmail className=' text-xl'/></a>
+            <a className='p-2 border-2 rounded-full'  href="mailto:a@gmail.com" target='_blank'><MdEmail className=' text-xl'/></a>
             <a className='p-2 border-2 rounded-full' href="https://www.instagram.com/jstayclutch/" target='_blank'><AiOutlineInstagram className=' text-xl'/></a>
             <a className='p-2 border-2 rounded-full' href="https://www.twitch.tv/jstayclutch" target='_blank'><ImTwitch className=' text-xl'/></a>
             <a className='p-2 border-2 rounded-full' href="https://twitter.com/jstayclutch" target='_blank'><AiOutlineTwitter className=' text-xl'/></a>
