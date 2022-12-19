@@ -1,7 +1,7 @@
 import React from 'react'
 import profileImg from '../../assets/jhonson.jpeg'
 import {GoLocation} from 'react-icons/go'
-import {MdEmail} from 'react-icons/md'
+import {MdEmail, MdVerified} from 'react-icons/md'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {ImTwitch} from 'react-icons/im'
 import {AiOutlineTwitter} from 'react-icons/ai'
@@ -17,7 +17,7 @@ const Header = () => {
     <div>
         <img className='w-[98px] rounded-full mx-auto' src={profileImg} alt="" />
         <div>
-            <h2 className='text-2xl font-bold'>J Johnson Jr</h2>
+            <h2 className='text-2xl font-bold flex justify-center items-center gap-x-1'>J Johnson Jr <MdVerified className='text-blue-600'/></h2>
             <p>Created by different elements ⚛️ Athlete & CEO</p>
             <p className='flex items-center justify-center'><GoLocation className='text-white'/>Raleigh, NC</p>
         </div>

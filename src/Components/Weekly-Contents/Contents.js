@@ -1,8 +1,8 @@
 import React from "react";
-import trainningImg from "../../assets/trainning-img.png";
-import mealImg from "../../assets/meal-img.png";
-import quateImg from "../../assets/quate-img.png";
-import workOutImg from "../../assets/workout.png";
+import trainningImg from "../../assets/content-images/trainning-img.png";
+import mealImg from "../../assets/content-images/meal-img.png";
+import quateImg from "../../assets/content-images/quate-img.png";
+import workOutImg from "../../assets/content-images/workout.png";
 import { AiFillHeart, AiFillYoutube } from "react-icons/ai";
 const premiumContents = [
   {
@@ -64,7 +64,6 @@ const Contents = () => {
             <p className="text-sm">Get faster for any sport with these speed tips</p>
         </a>
     </div>
-
   );
 };
 
