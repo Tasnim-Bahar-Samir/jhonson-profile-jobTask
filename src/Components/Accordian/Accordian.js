@@ -3,7 +3,7 @@ import React from 'react'
 
 const Accordian = () => {
   return (
-    <div className='mt-5'>
+    <div className='mt-5 border-2 p-5 rounded-lg'>
 <Accordion alwaysOpen={true}>
   <Accordion.Panel>
     <Accordion.Title className='text-center mb-5 hover:bg-inherit'>

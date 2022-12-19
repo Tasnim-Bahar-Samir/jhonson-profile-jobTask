@@ -78,9 +78,7 @@ const Contents = () => {
         <p className="text-sm">
           Get faster for any sport with these speed tips
         </p>
-      </a>
-
-      
+      </a> 
 
       <Accordian/>
       
